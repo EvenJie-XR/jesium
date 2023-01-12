@@ -1,6 +1,6 @@
 {
   "name": "jesium",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "利用原生cesium封装一些常用功能,帮助快速开发cesium项目,中文文档：https://gunomniscience.github.io/jesium/",
   "main": "lib/main.umd.js",
   "module": "lib/main.esm.js",
