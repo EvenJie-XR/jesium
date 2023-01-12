@@ -2,7 +2,7 @@ import json from "rollup-plugin-json";
 import typescript from "rollup-plugin-typescript2";
 import sourceMaps from "rollup-plugin-sourcemaps";
 
-const libraryName = 'jesium'
+const libraryName = 'Jesium'
 
 export default {
   input: "modules/index.ts",

@@ -2,7 +2,7 @@
   "name": "jesium",
   "version": "1.0.1",
   "description": "利用原生cesium封装一些常用功能,帮助快速开发cesium项目",
-  "main": "lib/main.umd.js",
+  "main": "lib/main.esm.js",
   "module": "lib/main.esm.js",
   "typings": "lib/types/index.d.ts",
   "scripts": {
@@ -35,8 +35,10 @@
   },
   "repository": "https://github.com/GunOmniscience/jesium",
   "dependencies": {
+    "@turf/turf": "^6.5.0",
     "cesium": "^1.101.0",
-    "jesium": "^1.0.0",
+    "element-plus": "^2.2.28",
+    "jesium": "^1.0.1",
     "sass": "^1.57.1",
     "vue": "^3.2.45"
   }
