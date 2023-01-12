@@ -1,10 +1,10 @@
 <template>
-	<div class="container">
-	</div>
+	<div class="container"></div>
 </template>
+<script lang="ts" setup>
+import {reactive,toRefs,defineComponent} from "vue"
+</script>
+
 <style lang="scss" scoped>
-.container {
-	width: 100%;
-	height: 100%;
-}
+//
 </style>
