@@ -1,0 +1,13 @@
+.github
+docs
+node_modules
+public
+src
+test
+index.html
+jest.config.js
+rollup.config.js
+tsconfig.json
+tsconfig.node.json
+typedoc.json
+vite.config.ts
