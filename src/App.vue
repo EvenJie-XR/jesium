@@ -1,9 +1,13 @@
 <template>
-	<div class="container"></div>
+	<div class="cesium-container" ref="cesiumContainer"></div>
 </template>
 <script lang="ts" setup>
-import {reactive,toRefs,defineComponent} from "vue"
+import {reactive,toRefs,defineComponent, ref, onMounted} from "vue"
 
+const cesiumContainer = ref();
+onMounted(() => {
+	
+})
 </script>
 
 <style lang="scss" scoped>
