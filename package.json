@@ -1,6 +1,6 @@
 {
   "name": "jesium",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "利用原生cesium封装一些常用功能,帮助快速开发cesium项目",
   "main": "lib/main.umd.js",
   "module": "lib/main.esm.js",
