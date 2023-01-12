@@ -8,7 +8,8 @@
   "scripts": {
     "build": "rollup --config && npm run doc",
     "test": "jest --no-cache",
-    "doc": "typedoc --options typedoc.json"
+    "doc": "typedoc --options typedoc.json",
+    "dev": "vite --host"
   },
   "keywords": [
     "cesium"
@@ -18,6 +19,7 @@
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "@types/node": "^18.11.18",
+    "@vitejs/plugin-vue": "^4.0.0",
     "jest": "^26.6.3",
     "rollup": "^2.33.1",
     "rollup-plugin-json": "^4.0.0",
@@ -27,7 +29,14 @@
     "tslib": "^2.0.3",
     "typedoc": "^0.19.2",
     "typedoc-neo-theme": "^1.0.10",
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.5",
+    "vite": "^4.0.4",
+    "vue-tsc": "^1.0.24"
   },
-  "repository": ""
+  "repository": "",
+  "dependencies": {
+    "cesium": "^1.101.0",
+    "sass": "^1.57.1",
+    "vue": "^3.2.45"
+  }
 }
